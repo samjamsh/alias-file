@@ -25,9 +25,9 @@ All `.alias` files strictly adhere to a 5-byte fixed header followed immediately
 | Offset | Field Name | Data Type | Endianness | Value Range / Definition |
 | :--- | :--- | :--- | :--- | :--- |
 | `0x00` | **Type** | `uint8` | **Big-Endian** | Format identifier magic byte. Fixed constant: `0x01`. |
-| `0x01 - 0x02` | **Version** | `uint16` | **Big-Endian** | File format version number. Format v1.0 standard: `0x0001`. |
-| `0x03 - 0x04` | **Size** | `uint16` | **Big-Endian** | Exact byte/character length ($N$) of the hexadecimal payload section. |
-| `0x05 - End` | **Hex Payload** | `ASCII String` | N/A | Hexadecimal-encoded ASCII representation of the target file path. |
+| `0x01 -  0x02` | **Version** | `uint16` | **Big-Endian** | File format version number. Format v1.0 standard: `0x0001`. |
+| `0x03 -  0x04` | **Size** | `uint16` | **Big-Endian** | Exact byte/character length ($N$) of the hexadecimal payload section. |
+| `0x05 -  End` | **Hex Payload** | `ASCII String` | N/A | Hexadecimal-encoded ASCII representation of the target file path. |
 
 ---
 
