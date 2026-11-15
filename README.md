@@ -38,7 +38,7 @@ All `.alias` files strictly adhere to a 5-byte fixed header followed immediately
  **Payload Boundaries:** The `Size` field defines the exact number of bytes $N$ that follow the 5-byte header. The maximum allowable payload size for version 1.0 is $65,535$ bytes (`0xFFFF`)
  **Encoding Integrity:** The payload must represent valid hex pairs corresponding to an absolute target path string
 
-
+---
 
 ## 5. Download and Install
 
@@ -47,6 +47,7 @@ All `.alias` files strictly adhere to a 5-byte fixed header followed immediately
     https://drive.google.com/file/d/1RhW5A1XGY3ZO_m-54-tqFoW36kKuFs0P/view?usp=sharing 
     
   After downloading you double click the install.exe program to install it automatically
+
    
   **Then after installing you can start using it by pressing right button on the mousepad over any file**
   
