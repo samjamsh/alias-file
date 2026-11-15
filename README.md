@@ -33,7 +33,7 @@ All `.alias` files strictly adhere to a 5-byte fixed header followed immediately
 
 ## 4. Format Rules & Data Standards
 
-1. **Strict Big-Endian Encoding:** All multi-byte and single-byte fields within the header structure (`Type`, `Version`, and `Size`) are explicitly stored using Big-Endian byte ordering
-2. **Hexadecimal String Payload:** The target file path is stored exclusively as an ASCII string composed of hexadecimal representations of the underlying path characters
-3. **Payload Boundaries:** The `Size` field defines the exact number of bytes $N$ that follow the 5-byte header. The maximum allowable payload size for version 1.0 is $65,535$ bytes (`0xFFFF`)
-4. **Encoding Integrity:** The payload must represent valid hex pairs corresponding to an absolute target path string
+ **Strict Big-Endian Encoding:** All multi-byte and single-byte fields within the header structure (`Type`, `Version`, and `Size`) are explicitly stored using Big-Endian byte ordering
+ **Hexadecimal String Payload:** The target file path is stored exclusively as an ASCII string composed of hexadecimal representations of the underlying path characters
+ **Payload Boundaries:** The `Size` field defines the exact number of bytes $N$ that follow the 5-byte header. The maximum allowable payload size for version 1.0 is $65,535$ bytes (`0xFFFF`)
+ **Encoding Integrity:** The payload must represent valid hex pairs corresponding to an absolute target path string
