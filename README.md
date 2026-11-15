@@ -42,7 +42,9 @@ All `.alias` files strictly adhere to a 5-byte fixed header followed immediately
 
 ## 5. Download and Install
 
-    ** You can download the software from the below link**
-    ** After downloading you double click the install.exe program to install it automatically**
+    **You can download the software from the below link**
+    
+   **After downloading you double click the install.exe program to install it automatically**
+   
     ** Then after installing you can start using it by pressing right button on the mousepad over any file**
 
