@@ -43,12 +43,13 @@ All `.alias` files strictly adhere to a 5-byte fixed header followed immediately
 ## 5. Download and Install
 
   **You can download the software from the below link**
+  
     https://drive.google.com/file/d/1RhW5A1XGY3ZO_m-54-tqFoW36kKuFs0P/view?usp=sharing 
     
   After downloading you double click the install.exe program to install it automatically
    
   **Then after installing you can start using it by pressing right button on the mousepad over any file**
   
-  After right clicking over the chosen file you click the ``**create alias**`` option to create your file's alias
+  After right clicking over the chosen file you click the **``create alias``** option to create your file's alias
   
 
