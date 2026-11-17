@@ -2,7 +2,7 @@
 
 ## 1. Overview
 
-The `.alias` file format is a lightweight binary container specification designed to store direct reference paths to local file targets. The format consists of a fixed-size header section followed by a variable length payload section containing the hexadecimal-encoded file path
+The `.alias` file format is a lightweight binary container  designed to store direct reference paths to local file targets, the format has a fixed size header section followed by a variable length payload section containing the target path in hexadecimal
 
 ---
 
